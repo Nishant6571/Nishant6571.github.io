@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db52ae43.css",
+    "main.js": "/static/js/main.0b0fa304.js",
+    "static/media/hospital1.png": "/static/media/hospital1.6d911db0c335f41c00d4.png",
+    "static/media/travel2.png": "/static/media/travel2.7891442f637a7fd8ba25.png",
+    "static/media/travel1.png": "/static/media/travel1.27eb4be2873583a8f71d.png",
+    "static/media/travel9.png": "/static/media/travel9.8103d0dccac753364d42.png",
+    "static/media/travel3.png": "/static/media/travel3.ebf14a087ff7b72722d6.png",
+    "static/media/nishant.JPG": "/static/media/nishant.e30a92569f774dedc24d.JPG",
+    "static/media/projectfigma.png": "/static/media/projectfigma.0ff20be1a92140df4e20.png",
+    "static/media/hospital2.png": "/static/media/hospital2.e08e031e5a5fbb981fb1.png",
+    "static/media/travel4.png": "/static/media/travel4.100aefd9e04a969c95a0.png",
+    "static/media/hospital5.png": "/static/media/hospital5.c1d9b10870b6bbe20bd8.png",
+    "static/media/hospital3.png": "/static/media/hospital3.a1bd32eb022d907aed62.png",
+    "static/media/hospital4.png": "/static/media/hospital4.b9ac28c718e172c60704.png",
+    "static/media/hospital6.png": "/static/media/hospital6.d4c560802ae69b677073.png",
+    "static/media/travel8.png": "/static/media/travel8.b22b63fe5425c560620e.png",
+    "static/media/hospital7.png": "/static/media/hospital7.f6eed7f626b2a3a8041c.png",
+    "static/media/travel7.png": "/static/media/travel7.de03bbbd5cd699562770.png",
+    "static/media/travel5.png": "/static/media/travel5.51360dbc1bbc10b80116.png",
+    "static/media/travel6.png": "/static/media/travel6.d7e1dec8f64c8f2a763a.png",
+    "index.html": "/index.html",
+    "main.db52ae43.css.map": "/static/css/main.db52ae43.css.map",
+    "main.0b0fa304.js.map": "/static/js/main.0b0fa304.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db52ae43.css",
+    "static/js/main.0b0fa304.js"
+  ]
+}
