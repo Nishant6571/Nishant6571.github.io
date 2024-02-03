@@ -14,7 +14,10 @@ export const About = () => {
     <>
       <div class="nav-link home" id="home" className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Nishant Bhargava</span>
+          Hello, I am{" "}
+          <span className="about__name" id="user-detail-name">
+            Nishant Bhargava
+          </span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
@@ -62,6 +65,8 @@ export const About = () => {
         </div>
 
         <button
+          id="resume-button-2"
+          class="nav-link resume"
           className="btnResume"
           onClick={() => {
             window.open(

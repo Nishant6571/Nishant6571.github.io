@@ -9,16 +9,16 @@ export const Introduction = () => {
 
   return (
     <>
-      <section id="#about">
+      <section class="nav-link about" id="#about">
         <div className="section" data-aos="fade-right">
           <h2 className="section__title">
             About <span className="different">Me</span>
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img src={profilePic} alt="Images" />
+              <img class="home-img" src={profilePic} alt="Images" />
             </div>
-            <div className="introduction_datacontainer">
+            <div id="user-detail-intro" className="introduction_datacontainer">
               <h4>
                 A dedicated Full-Stack Web Developer with a passion for crafting
                 seamless and visually appealing user experiences. I pay close

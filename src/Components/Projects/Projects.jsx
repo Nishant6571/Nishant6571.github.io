@@ -48,7 +48,11 @@ export const Projects = () => {
       <div class="nav-link projects" id="projects" className="Projectsection">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
-          <div className="projects_container" data-aos="fade-right">
+          <div
+            class="project-card"
+            className="projects_container"
+            data-aos="fade-right"
+          >
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -86,9 +90,9 @@ export const Projects = () => {
               </div>
 
               <div className="project_information">
-                <h2>Samrat Hospital</h2>
+                <h2 class="project-title">Samrat Hospital</h2>
 
-                <p>
+                <p class="project-description">
                   Samrat Hospital is an online portal, facilitating the seamless
                   booking of appointments with our esteemed doctors. This
                   digital platform reflects our commitment to providing
@@ -96,7 +100,7 @@ export const Projects = () => {
                   convenient experience for our valued patients.
                 </p>
 
-                <div className="tec">
+                <div class="project-tech-stack" className="tec">
                   <FaReact />
                   <SiRedux />
                   <SiTailwindcss />
@@ -107,6 +111,7 @@ export const Projects = () => {
 
                 <div>
                   <a
+                    class="project-deployed-link"
                     href="https://c-sharp-sam.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -116,6 +121,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
+                    class="project-github-link"
                     href="https://github.com/Nishant6571/Samrat_Hospital"
                     target="_blank"
                     rel="noreferrer"
@@ -129,7 +135,11 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="projects_container" data-aos="fade-right">
+          <div
+            class="project-card"
+            className="projects_container"
+            data-aos="fade-right"
+          >
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -179,8 +189,8 @@ export const Projects = () => {
               </div>
 
               <div className="project_information">
-                <h2>Travel Tribe</h2>
-                <p>
+                <h2 class="project-title">Travel Tribe</h2>
+                <p class="project-description">
                   Travel Tribe is an online travel agency that specializes in
                   offering comprehensive travel packages, ensuring a seamless
                   end-to-end experience for travelers. Whether you're dreaming
@@ -189,7 +199,7 @@ export const Projects = () => {
                   solutions.
                 </p>
 
-                <div className="tec">
+                <div class="project-tech-stack" className="tec">
                   <SiHtml5 />
                   <SiCss3 />
                   <SiJavascript />
@@ -198,6 +208,7 @@ export const Projects = () => {
 
                 <div>
                   <a
+                    class="project-deployed-link"
                     href="https://velvety-maamoul-e37b50.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -207,6 +218,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
+                    class="project-github-link"
                     href="https://github.com/Nishant6571/Travel-Tribe"
                     target="_blank"
                     rel="noreferrer"
@@ -228,20 +240,21 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>Figma Template Clone</h2>
-                <p>
+                <h2 class="project-title">Figma Template Clone</h2>
+                <p class="project-description">
                   Our project involves replicating the design elements from
                   Figma, specifically for the Portfolio Detail and Contact
                   sections.Clone that faithfully represents the visual and
                   interactive aspects of the original design. This includes
                   ensuring a seamless user experience in our implementation.
                 </p>
-                <div className="tec">
+                <div class="project-tech-stack" className="tec">
                   <SiHtml5 />
                   <SiCss3 />
                 </div>
                 <div>
                   <a
+                    class="project-deployed-link"
                     href="https://cw-unit3-project.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -251,6 +264,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
+                    class="project-github-link"
                     href="https://github.com/Nishant6571/Figma_Template_Clone"
                     target="_blank"
                     rel="noreferrer"

@@ -17,54 +17,65 @@ export const Techstacks = () => {
       >
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
-          <div>
+          <div class="skills-card">
             <SiJavascript />
-            <h5>Javascript</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">Javascript</h5>
           </div>
-          <div>
+          <div class="skills-card">
             <FaReact />
-            <h5>React</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">React</h5>
           </div>
 
-          <div>
+          <div class="skills-card">
             <SiHtml5 />
-            <h5>HTML</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">HTML</h5>
           </div>
-          <div>
+          <div class="skills-card">
             <DiCss3 />
-            <h5>CSS</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">CSS</h5>
           </div>
 
-          <div>
+          <div class="skills-card">
             <FaNodeJs />
-            <h5>Nodejs</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">Nodejs</h5>
           </div>
-          <div>
+          <div class="skills-card">
             <DiMongodb />
-            <h5>MongoDb</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">MongoDb</h5>
           </div>
-          <div>
+          <div class="skills-card">
             <DiMysql />
-            <h5>Mysql</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">Mysql</h5>
           </div>
 
-          <div>
+          <div class="skills-card">
             <SiExpress />
-            <h5>Express</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">Express</h5>
           </div>
 
-          <div>
+          <div class="skills-card">
             <VscGithub />
-            <h5>Github</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">Github</h5>
           </div>
-          <div>
+          <div class="skills-card">
             <SiRedux />
-            <h5>Redux</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">Redux</h5>
           </div>
 
-          <div>
+          <div class="skills-card">
             <SiGit />
-            <h5>Git</h5>
+            <img class="skills-card-img" src="" alt="" />
+            <h5 class="skills-card-name">Git</h5>
           </div>
         </div>
       </div>

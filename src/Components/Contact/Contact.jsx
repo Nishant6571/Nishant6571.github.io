@@ -21,6 +21,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
+              id="contact-linkedin"
               href="https://www.linkedin.com/in/nishant-bh/"
               target="_blank"
               rel="noreferrer"
@@ -28,6 +29,7 @@ export const Contact = () => {
               <FaLinkedin className="linkedin" />
             </a>
             <a
+              id="contact-github"
               href="https://github.com/nishant6571"
               target="_blank"
               rel="noreferrer"
@@ -51,7 +53,7 @@ export const Contact = () => {
                 <CgMail className="email" />
               </span>
               <span>
-                <p>nishantbhargava.bhargava@gmail.com</p>
+                <p id="contact-email">nishantbhargava.bhargava@gmail.com</p>
               </span>
             </div>
             <div className="iconsCont">
@@ -59,7 +61,7 @@ export const Contact = () => {
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>+91 8285743459</p>
+                <p id="contact-phone">+91 8285743459</p>
               </span>
             </div>
           </div>
