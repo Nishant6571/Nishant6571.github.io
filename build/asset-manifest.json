@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.25e3fbc6.css",
+<<<<<<< HEAD
     "main.js": "/static/js/main.e21a476a.js",
+=======
+    "main.js": "/static/js/main.d3268fb0.js",
+>>>>>>> 0405a339ab216690b09c92175199ee3f47ca20b4
     "static/media/hospital1.png": "/static/media/hospital1.6d911db0c335f41c00d4.png",
     "static/media/travel2.png": "/static/media/travel2.7891442f637a7fd8ba25.png",
     "static/media/travel1.png": "/static/media/travel1.27eb4be2873583a8f71d.png",
@@ -22,10 +26,18 @@
     "static/media/travel6.png": "/static/media/travel6.d7e1dec8f64c8f2a763a.png",
     "index.html": "/index.html",
     "main.25e3fbc6.css.map": "/static/css/main.25e3fbc6.css.map",
+<<<<<<< HEAD
     "main.e21a476a.js.map": "/static/js/main.e21a476a.js.map"
   },
   "entrypoints": [
     "static/css/main.25e3fbc6.css",
     "static/js/main.e21a476a.js"
+=======
+    "main.d3268fb0.js.map": "/static/js/main.d3268fb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25e3fbc6.css",
+    "static/js/main.d3268fb0.js"
+>>>>>>> 0405a339ab216690b09c92175199ee3f47ca20b4
   ]
 }
