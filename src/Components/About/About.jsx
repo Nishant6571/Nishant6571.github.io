@@ -10,6 +10,7 @@ import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
 import resume from "../Resume/Nishant-Bhargava-Resume.pdf";
 
+// About
 export const About = () => {
   return (
     <>
@@ -80,6 +81,7 @@ export const About = () => {
           </button>
         </a>
       </div>
+
       <Introduction />
       <Timeline />
       <section id="#skills">
