@@ -8,7 +8,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
-import resume from "../Resume/Nishant-Bhargava-Resume.pdf";
+import resume from "../Resume/Nishant_Bhargava_Resume.pdf";
 
 // About
 export const About = () => {
