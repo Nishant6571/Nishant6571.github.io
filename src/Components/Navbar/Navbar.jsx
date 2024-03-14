@@ -82,7 +82,7 @@ export const Navbar = () => {
               download
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1j3Nex6J2azxv0g__ZcKF8ZlmMUoz_E_y/view?usp=sharing"
+                  "https://drive.google.com/file/d/1CPyB7MP37apd5HYvrEFcMMQKB_kyaboN/view?usp=sharing"
                 );
               }}
             >
