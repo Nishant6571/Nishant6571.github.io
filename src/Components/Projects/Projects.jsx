@@ -21,6 +21,7 @@ import {
   SiChakraui,
   SiHeroku,
   SiCss3,
+  SiVercel,
 } from "react-icons/si";
 import travelImage1 from "../../assets/travel1.png";
 import travelImage2 from "../../assets/travel2.png";
@@ -38,6 +39,20 @@ import hospital4 from "../../assets/hospital4.png";
 import hospital5 from "../../assets/hospital5.png";
 import hospital6 from "../../assets/hospital6.png";
 import hospital7 from "../../assets/hospital7.png";
+import byte1 from "../../assets/byte1.png";
+import byte2 from "../../assets/byte2.png";
+import byte3 from "../../assets/byte3.png";
+import byte4 from "../../assets/byte4.png";
+import byte6 from "../../assets/byte6.png";
+import byte7 from "../../assets/byte7.png";
+import finance1 from "../../assets/finance1.png";
+import finance2 from "../../assets/finance2.png";
+import finance3 from "../../assets/finance3.png";
+import finance4 from "../../assets/finance4.png";
+import finance5 from "../../assets/finance5.png";
+import finance6 from "../../assets/finance6.png";
+import finance7 from "../../assets/finance7.png";
+
 import projectfigma from "../../assets/projectfigma.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -110,7 +125,7 @@ export const Projects = () => {
                   <SiRedux />
                   <SiTailwindcss />
                   <SiChakraui />
-                  <SiNetlify />
+                  <SiVercel />
                 </div>
                 <br />
 
@@ -139,7 +154,176 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+          <div
+            class="project-card"
+            className="projects_container"
+            data-aos="fade-right"
+          >
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <Carousel
+                    className="project_videocontainer"
+                    autoPlay={true}
+                    infiniteLoop={true}
+                    showIndicators={false}
+                    showThumbs={false}
+                    showStatus={false}
+                  >
+                    <div>
+                      <img src={byte1} />
+                    </div>
+                    <div>
+                      <img src={byte2} />
+                    </div>
+                    <div>
+                      <img src={byte3} />
+                    </div>
+                    <div>
+                      <img src={byte4} />
+                    </div>
 
+                    <div>
+                      <img src={byte6} />
+                    </div>
+                    <div>
+                      <img src={byte7} />
+                    </div>
+                  </Carousel>
+                </div>
+              </div>
+
+              <div className="project_information">
+                <h2 class="project-title">Byte Blitz</h2>
+
+                <p class="project-description">
+                  ByteBlitz is a open-source quiz application that helps you to
+                  learn various programming languages related questions. Here we
+                  are providing well organised quizzes right in the browser.
+                </p>
+
+                <div class="project-tech-stack" className="tec">
+                  <FaReact />
+                  <SiRedux />
+                  <SiTailwindcss />
+                  <SiChakraui />
+                  <SiVercel />
+                  <FaNodeJs />
+                </div>
+                <br />
+
+                <div>
+                  <a
+                    class="project-deployed-link"
+                    href="https://byte-blitz-five.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    class="project-github-link"
+                    href="https://github.com/Nishant6571/Byte-Blitz"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-card"
+            className="projects_container"
+            data-aos="fade-right"
+          >
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <Carousel
+                    className="project_videocontainer"
+                    autoPlay={true}
+                    infiniteLoop={true}
+                    showIndicators={false}
+                    showThumbs={false}
+                    showStatus={false}
+                  >
+                    <div>
+                      <img src={finance7} />
+                    </div>
+                    <div>
+                      <img src={finance1} />
+                    </div>
+                    <div>
+                      <img src={finance2} />
+                    </div>
+                    <div>
+                      <img src={finance3} />
+                    </div>
+                    <div>
+                      <img src={finance4} />
+                    </div>
+
+                    <div>
+                      <img src={finance5} />
+                    </div>
+                    <div>
+                      <img src={finance6} />
+                    </div>
+                  </Carousel>
+                </div>
+              </div>
+
+              <div className="project_information">
+                <h2 class="project-title">Finance GPT</h2>
+
+                <p class="project-description">
+                  FinanceGPT is a powerful financial information tool designed
+                  to empower users with real-time stock data, curated articles,
+                  and AI-driven assistance for financial queries. This project
+                  addresses the need for a comprehensive platform that helps in
+                  various facets of financial information, catering to both
+                  novice and experienced users in the finance.
+                </p>
+
+                <div class="project-tech-stack" className="tec">
+                  <FaReact />
+                  <SiTailwindcss />
+                  <SiMaterialui />
+                  <SiVercel />
+                </div>
+                <br />
+
+                <div>
+                  <a
+                    class="project-deployed-link"
+                    href="https://finance-gpt-omega.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    class="project-github-link"
+                    href="https://github.com/Nishant6571/Finance_gpt"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
             class="project-card"
             className="projects_container"
